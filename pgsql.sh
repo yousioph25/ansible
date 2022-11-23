@@ -1,6 +1,5 @@
-# !/bin/bash -ex
-
-# Variable Creation
+#!/usr/bin/bash 
+# Section 1 - Variable Creation
 
 echo "Creating variables for use throughout the PSQL installation process"
 # $packages is an array containing the dependencies for PostgreSQL
@@ -18,7 +17,7 @@ helloscript='/home/leewalker/scripts/hello.sql'
 # $logfile is the log file for this installation.
 logfile='psqlinstall-log'
 
-# Package Installation
+# Section 2 - Package Installation (Created by https://github.com/Itsmide)
 
 # Ensures the server is up to date before proceeding.
 echo "Updating server..."
@@ -29,25 +28,25 @@ echo "Installing PostgreSQL dependencies"
 sudo apt-get install ${packages[@]} -y >> $logfile
 
 
-# Create required directories
+# Section 3 - Create required directories
 
 echo "Creating folders $dfolder..."
 sudo mkdir -p $dfolder >> $logfile
 
 
-# Create system user
+# Section 4 - Create system user
 
 echo "Creating system user '$sysuser'"
 sudo adduser --system $sysuser >> $logfile
 
 
-# Pull down PSQL using git
+# Section 5 - Pull down PSQL using git
 
 echo "Pulling down PostgreSQL from $gitloc"
 git clone $gitloc >> $logfile
 
 
-# Install and configure PSQL
+# Section 6 - Install and configure PSQL
 
 # Configuring PostgreSQL to be installed at /postgres with a data root directory of /postgres/data
 echo "Configuring PostgreSQL"
@@ -67,13 +66,13 @@ echo "Running initdb"
 sudo -u postgres $rfolder/bin/initdb -D $dfolder/db >> $logfile
 
 
-# Start PSQL
+# Section 7 - Start PSQL
 
 # PostgreSQL is being started, using pg_ctl as the system user postgres.
 echo "Starting PostgreSQL"
 sudo -u postgres $rfolder/bin/pg_ctl -D $dfolder/db -l $dfolder/logfilePSQL start >> $logfile
 
-# Add PostgreSQL to /etc/rc.local and add environment variables to /etc/profile
+# Section 8 - Add PostgreSQL to /etc/rc.local and add environment variables to /etc/profile
 
 # The command to start PostgreSQL at launch is added to /etc/rc.local, again using the system user postgres.
 echo "Set PostgreSQL to launch on startup"
@@ -90,7 +89,7 @@ export PATH
 EOL
 
 
-# hello.sql script is ran
+# Section 8 - hello.sql script is ran
 
 echo "Wait for PostgreSQL to finish starting up..."
 sleep 5
@@ -100,7 +99,7 @@ echo "Running script"
 $rfolder/bin/psql -U postgres -f $helloscript
 
 
-# hello_postgres is queried
+# Section 9 - hello_postgres is queried
 
 echo "Querying the newly created table in the newly created database."
 /postgres/bin/psql -c 'select * from hello;' -U psqluser hello_postgres;

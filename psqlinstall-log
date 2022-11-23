@@ -1,0 +1,141 @@
+Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://ppa.launchpad.net/ansible/ansible/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libreadline5 is already the newest version (5.2+dfsg-3build3).
+libreadline5 set to manually installed.
+python3 is already the newest version (3.8.2-0ubuntu2).
+python3 set to manually installed.
+gzip is already the newest version (1.10-0ubuntu4.1).
+tar is already the newest version (1.30+dfsg-7ubuntu0.20.04.2).
+tar set to manually installed.
+The following additional packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-9 gcc-9
+  gcc-9-base libasan5 libatomic1 libbinutils libc-dev-bin libc6-dev libcc1-0
+  libcroco3 libcrypt-dev libctf-nobfd0 libctf0 libfl-dev libgcc-9-dev libgomp1
+  libisl22 libitm1 liblsan0 libmpc3 libncurses-dev libperl5.30 libpq5
+  libquadmath0 libtcl8.6 libtsan0 libubsan1 linux-libc-dev m4 manpages-dev
+  odbcinst odbcinst1debian2 perl-base perl-modules-5.30 tcl8.6
+Suggested packages:
+  binutils-doc bison-doc cpp-doc gcc-9-locales build-essential flex-doc
+  gcc-multilib autoconf automake libtool gdb gcc-doc gcc-9-multilib gcc-9-doc
+  gettext-doc autopoint libasprintf-dev libgettextpo-dev git-daemon-run
+  | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs
+  git-mediawiki git-svn glibc-doc ncurses-doc readline-doc m4-doc make-doc
+  unixodbc-bin perl-doc libterm-readline-gnu-perl | libterm-readline-perl-perl
+  libb-debug-perl liblocale-codes-perl tcl-tclreadline
+The following NEW packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu bison cpp cpp-9 flex gcc
+  gcc-9 gcc-9-base gettext libasan5 libatomic1 libbinutils libc-dev-bin
+  libc6-dev libcc1-0 libcroco3 libcrypt-dev libctf-nobfd0 libctf0 libfl-dev
+  libgcc-9-dev libgomp1 libisl22 libitm1 liblsan0 libmpc3 libncurses-dev
+  libpq5 libquadmath0 libreadline-dev libtcl8.6 libtsan0 libubsan1
+  linux-libc-dev m4 make manpages-dev odbc-postgresql odbcinst
+  odbcinst1debian2 tcl tcl8.6 zlib1g-dev
+The following packages will be upgraded:
+  git libperl5.30 perl perl-base perl-modules-5.30 zlib1g
+6 upgraded, 45 newly installed, 0 to remove and 67 not upgraded.
+Need to get 51.4 MB of archives.
+After this operation, 168 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libperl5.30 amd64 5.30.0-9ubuntu0.3 [3951 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 perl amd64 5.30.0-9ubuntu0.3 [224 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 perl-base amd64 5.30.0-9ubuntu0.3 [1514 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 perl-modules-5.30 all 5.30.0-9ubuntu0.3 [2739 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-2ubuntu1.5 [54.2 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 m4 amd64 1.4.18-4 [199 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 flex amd64 2.6.4-6.2 [317 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-common amd64 2.34-6ubuntu1.3 [207 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libbinutils amd64 2.34-6ubuntu1.3 [474 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1.3 [47.4 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf0 amd64 2.34-6ubuntu1.3 [46.6 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1.3 [1613 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1.3 [1613 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils amd64 2.34-6ubuntu1.3 [3380 B]
+Get:14 http://archive.ubuntu.com/ubuntu focal/main amd64 bison amd64 2:3.5.1+dfsg-1 [657 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9-base amd64 9.4.0-1ubuntu1~20.04.1 [19.4 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libisl22 amd64 0.22.1-1 [592 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 libmpc3 amd64 1.1.0-1 [40.8 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 cpp-9 amd64 9.4.0-1ubuntu1~20.04.1 [7500 kB]
+Ign:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 cpp-9 amd64 9.4.0-1ubuntu1~20.04.1
+Err:19 http://archive.ubuntu.com/ubuntu focal/main amd64 cpp amd64 4:9.3.0-1ubuntu2
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Ign:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcc1-0 amd64 10.3.0-1ubuntu1~20.04
+Ign:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgomp1 amd64 10.3.0-1ubuntu1~20.04
+Ign:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libitm1 amd64 10.3.0-1ubuntu1~20.04
+Ign:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libatomic1 amd64 10.3.0-1ubuntu1~20.04
+Ign:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libasan5 amd64 9.4.0-1ubuntu1~20.04.1
+Ign:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 liblsan0 amd64 10.3.0-1ubuntu1~20.04
+Ign:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtsan0 amd64 10.3.0-1ubuntu1~20.04
+Ign:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libubsan1 amd64 10.3.0-1ubuntu1~20.04
+Ign:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libquadmath0 amd64 10.3.0-1ubuntu1~20.04
+Ign:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-9-dev amd64 9.4.0-1ubuntu1~20.04.1
+Ign:30 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9 amd64 9.4.0-1ubuntu1~20.04.1
+Err:31 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc amd64 4:9.3.0-1ubuntu2
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:32 http://archive.ubuntu.com/ubuntu focal/main amd64 libcroco3 amd64 0.6.13-1
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:33 http://archive.ubuntu.com/ubuntu focal/main amd64 gettext amd64 0.19.8.1-10build1
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Ign:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.6
+Err:35 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-dev-bin amd64 2.31-0ubuntu9.9
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Ign:36 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-132.148
+Err:37 http://archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:38 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dev amd64 2.31-0ubuntu9.9
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:39 http://archive.ubuntu.com/ubuntu focal/main amd64 libfl-dev amd64 2.6.4-6.2
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:40 http://archive.ubuntu.com/ubuntu focal/main amd64 libncurses-dev amd64 6.2-0ubuntu2
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Ign:41 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpq5 amd64 12.12-0ubuntu0.20.04.1
+Err:42 http://archive.ubuntu.com/ubuntu focal/main amd64 libreadline-dev amd64 8.0-4
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:43 http://archive.ubuntu.com/ubuntu focal/main amd64 libtcl8.6 amd64 8.6.10+dfsg-1
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:44 http://archive.ubuntu.com/ubuntu focal/main amd64 make amd64 4.2.1-1.2
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:45 http://archive.ubuntu.com/ubuntu focal/main amd64 manpages-dev all 5.05-1
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:46 http://archive.ubuntu.com/ubuntu focal/main amd64 odbcinst amd64 2.3.6-0.1build1
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:47 http://archive.ubuntu.com/ubuntu focal/main amd64 odbcinst1debian2 amd64 2.3.6-0.1build1
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:48 http://archive.ubuntu.com/ubuntu focal/universe amd64 odbc-postgresql amd64 1:12.01.0000-1
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:49 http://archive.ubuntu.com/ubuntu focal/main amd64 tcl8.6 amd64 8.6.10+dfsg-1
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Err:50 http://archive.ubuntu.com/ubuntu focal/universe amd64 tcl amd64 8.6.9+1
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::15). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) [IP: 91.189.91.39 80]
+Ign:51 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu1.5
+Get:18 http://security.ubuntu.com/ubuntu focal-updates/main amd64 cpp-9 amd64 9.4.0-1ubuntu1~20.04.1 [7500 kB]
+Get:20 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libcc1-0 amd64 10.3.0-1ubuntu1~20.04 [48.8 kB]
+Get:21 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libgomp1 amd64 10.3.0-1ubuntu1~20.04 [102 kB]
+Get:22 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libitm1 amd64 10.3.0-1ubuntu1~20.04 [26.2 kB]
+Get:23 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libatomic1 amd64 10.3.0-1ubuntu1~20.04 [9284 B]
+Get:24 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libasan5 amd64 9.4.0-1ubuntu1~20.04.1 [2751 kB]
+Get:25 http://security.ubuntu.com/ubuntu focal-updates/main amd64 liblsan0 amd64 10.3.0-1ubuntu1~20.04 [835 kB]
+Get:26 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libtsan0 amd64 10.3.0-1ubuntu1~20.04 [2009 kB]
+Get:27 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libubsan1 amd64 10.3.0-1ubuntu1~20.04 [784 kB]
+Get:28 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libquadmath0 amd64 10.3.0-1ubuntu1~20.04 [146 kB]
+Get:29 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-9-dev amd64 9.4.0-1ubuntu1~20.04.1 [2359 kB]
+Get:30 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9 amd64 9.4.0-1ubuntu1~20.04.1 [8274 kB]
+Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Hit:4 http://ppa.launchpad.net/ansible/ansible/ubuntu focal InRelease
+Get:5 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2236 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2236 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [16.1 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1003 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [23.1 kB]
+Fetched 2096 kB in 37s (57.2 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
